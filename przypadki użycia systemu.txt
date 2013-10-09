@@ -1,0 +1,24 @@
+przypadek 1
+Aktorzy:Kupuj¹cy, System internetowy sprzedaj¹cy.
+-Kupuj¹cy klika w pole "KUp bilet"
+-System uruchamia formularz sprzeda¿y
+-K mo¿e sie zarejestrowaæ aby system zachowa³ jego dane na potrzeby przysz³ych transakcji, lub wype³niæ formularz jednorazowo
+-S po wype³nieniu formularza przekierowuje na stronê p³atnoœci online
+-K kupuj¹cy przelewa pieni¹dze
+-S ksiêguje wp³atê
+-K otrzymuje plik pdf z wygenerowanym biletem, po czym go drukuje
+
+przypadek 2
+Aktorzy:Kupuj¹cy, System internetowy sprzedaj¹cy.
+-Kupuj¹cy klika w pole "KUp bilet"
+-System zg³asza osi¹gniêcie puli biletów
+
+przypadek 3
+Aktorzy: kupuj¹cy, pani Basia(kasjerka w kasie na stadionie narodowym)
+-Kupuj¹cy po podejsciu do kasy zg³asza chêæ zakupu biletu
+-Pani Basia pobiera dane potrzebne do sprzeda¿y. Mówi cene, i pyta o p³atnoœæ.
+-Kupuj¹cy ma mo¿liwoœæ zap³aty za pomoc¹ gotówki lub karty p³atniczej. Po zap³acie dostaje wydrukowany bilet
+
+przypadek 4
+Aktor Pani Basia
+-Po osi¹gniêciu puli biletów pani Basia zamyka kasê.
